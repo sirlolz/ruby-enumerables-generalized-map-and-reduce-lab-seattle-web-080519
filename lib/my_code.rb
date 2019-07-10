@@ -13,7 +13,7 @@ def reduce(source_array, starting_point = 0)
   count = 0
   
   while count < source_array.length
-    if source_array[count].class == Integer
+    if source_array[count].class == Fixnum
       total += source_array[count]
     
     elsif source_array[count]
